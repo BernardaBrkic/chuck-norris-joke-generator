@@ -21,8 +21,7 @@ button {
   padding: 0.5rem 2rem;
   border-radius: 20px;
   margin-top: 1rem;
-}
-button:focus {
+  border: 0;
   outline: none;
 }
 button:hover,
@@ -37,7 +36,7 @@ img {
   width: 60%;
   padding-bottom: 2rem;
 }
-section p{
+section p {
   background-color: #efefef;
   color: #0a1931;
   width: fit-content;
@@ -46,4 +45,15 @@ section p{
   font-weight: bold;
   border-radius: 1rem;
   border: 1px solid #185adb;
+}
+@media screen and (max-width: 576px) {
+  h1 {
+    margin-top: 2rem;
+  }
+  .wrapper{
+    max-width: 90%;
+  }
+  img{
+    width: 100%;
+  }
 }
