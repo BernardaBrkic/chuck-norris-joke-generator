@@ -49,11 +49,12 @@ section p {
 @media screen and (max-width: 576px) {
   h1 {
     margin-top: 2rem;
+    font-size: 1.8rem;
   }
-  .wrapper{
+  .wrapper {
     max-width: 90%;
   }
-  img{
+  img {
     width: 100%;
   }
 }
